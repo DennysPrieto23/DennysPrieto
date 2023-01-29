@@ -1,0 +1,36 @@
+* {
+    margin: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+div.linea {
+    border-top: 5px solid rgb(53, 169, 211);
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+section.c1{
+    background: rgb(54, 134, 226);
+    display:flex;
+    flex-flow: row nowrap;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.cuerpoiq{
+    background: white;
+    flex direction: right;
+    width: 50%;
+}
+
+div.derecha{
+   background: white;
+   width: 70%;
+   flex direction: right:;
+}
+
+main.cuerpo{
+    background: rgb(31, 168, 202);
+}
